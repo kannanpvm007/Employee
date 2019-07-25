@@ -13,9 +13,9 @@ script:
 
 addons:
 sonarcloud:
-  organization: kannanpvm007 
+  organization: employeecl 
   token:
-    secure:3127ff9d24c009846ee2a049be5d9b05751c1393
+    secure: 80e2b7466b38e393e1deaa3af6152af63581e900
 
 # after_success:
 # - bash <(curl -s https://codecov.io/bash)
