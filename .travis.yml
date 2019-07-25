@@ -4,28 +4,25 @@ before_install:
 - chmod +x mvnw
 after_success:
 - bash <(curl -s https://codecov.io/bash)
-notifications:
-  webhooks: https://outlook.office.com/webhook/0e559c63-238c-4e41-9e2a-b99608831f5f@a386f7a5-d3d8-4c54-8566-a4d4b20193f5/TravisCI/1392bfc8283a46769201ab5e6b93d989/fd81eabe-c767-431f-b5d0-67af2782d7ba
+# notifications:
+#   webhooks: https://outlook.office.com/webhook/0e559c63-238c-4e41-9e2a-b99608831f5f@a386f7a5-d3d8-4c54-8566-a4d4b20193f5/TravisCI/1392bfc8283a46769201ab5e6b93d989/fd81eabe-c767-431f-b5d0-67af2782d7ba
 
-
-# language: java
-# sudo: false # faster builds
-# before_install:
-# - chmod +x mvnw
 script:
 - "./mvnw clean install -B"
 - "./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar"
+
+addons:
+sonarcloud:
+  organization: kannanpvm007 
+  token:
+    secure:3127ff9d24c009846ee2a049be5d9b05751c1393
+
 # after_success:
 # - bash <(curl -s https://codecov.io/bash)
 
 # notifications:
 #   webhooks: https://outlook.office.com/webhook/0e559c63-238c-4e41-9e2a-b99608831f5f@a386f7a5-d3d8-4c54-8566-a4d4b20193f5/TravisCI/1392bfc8283a46769201ab5e6b93d989/fd81eabe-c767-431f-b5d0-67af2782d7ba
 
-addons:
-sonarcloud:
-  organization: kannanpvm007 
-  token:
-    secure:97bc513ba68b799abe024c5c03548db1162b0440
 # deploy:
 # provider: heroku
 # api_key: A1B2C34576fsd47768vfgh
