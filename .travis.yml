@@ -25,7 +25,7 @@ addons:
 sonarcloud:
   organization: kannanpvm007 
   token:
-    secure:2d06365fe653d2422970215d0e1e84b96a04a8b5
+    secure:6e00d448c35592c3a03e605a841e1d03899e394f
 # deploy:
 # provider: heroku
 # api_key: A1B2C34576fsd47768vfgh
