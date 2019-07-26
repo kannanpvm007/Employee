@@ -7,7 +7,7 @@ after_success:
 script:
 # - "./mvnw clean install -B"
 - "./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar"
-
+#
 addons:
 sonarcloud:
   organization: employeecl # To find your organization, go to: https://sonarcloud.io/account/organizations
