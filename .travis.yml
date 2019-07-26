@@ -4,15 +4,16 @@ before_install:
 - chmod +x mvnw
 after_success:
 - bash <(curl -s https://codecov.io/bash)
-script:
+# script:
 # - "./mvnw clean install -B"
-- "./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar"
-#
-addons:
-sonarcloud:
-  organization: employeecl # To find your organization, go to: https://sonarcloud.io/account/organizations
-  token:
-    secure: 80e2b7466b38e393e1deaa3af6152af63581e900
+# - "./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar"
+ #
+ 
+# addons:
+# sonarcloud:
+#   organization: employeecl # To find your organization, go to: https://sonarcloud.io/account/organizations
+#   token:
+#     secure: 80e2b7466b38e393e1deaa3af6152af63581e900
 
 # after_success:
 # - bash <(curl -s https://codecov.io/bash)
