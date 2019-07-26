@@ -10,7 +10,7 @@ after_success:
 
 
 
-# deploy:
-# provider: heroku
-# api_key: 64714c1b-1433-4199-a3c9-bb33ee87c265
-# app: employeea
+deploy:
+provider: heroku
+api_key: 64714c1b-1433-4199-a3c9-bb33ee87c265
+app: employeea
