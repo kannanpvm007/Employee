@@ -1,0 +1,8 @@
+*[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.Employee'--
+*[INFO ]-- Starting EmployeeApplicationTests on GSS430 with PID 2484 (started by kannan.r in D:\Kannan\Spring\Employee)--
+*[INFO ]-- No active profile set, falling back to default profiles: default--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Started EmployeeApplicationTests in 20.474 seconds (JVM running for 27.972)--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
