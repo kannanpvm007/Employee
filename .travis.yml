@@ -8,9 +8,7 @@ before_install:
 after_success:
 - bash <(curl -s https://codecov.io/bash)
 
-
-
 deploy:
-provider: heroku
-api_key: 4583407b-f0f2-42df-96c1-26c90d8c4b82
-app: employeesa
+ provider: heroku
+ api_key: a607e439-6841-44eb-a881-6b6d1264c0dd
+ app: employeehh
