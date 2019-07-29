@@ -1,24 +1,14 @@
 *[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.Employee'--
-*[INFO ]-- Starting EmployeeApplicationTests on GSS430 with PID 2484 (started by kannan.r in D:\Kannan\Spring\Employee)--
+*[INFO ]-- Starting EmployeeApplication on GSS430 with PID 3620 (D:\Kannan\Spring\Employee\target\classes started by kannan.r in D:\Kannan\Spring\Employee)--
 *[INFO ]-- No active profile set, falling back to default profiles: default--
+*[INFO ]-- Starting service [Tomcat]--
+*[INFO ]-- Starting Servlet engine: [Apache Tomcat/9.0.21]--
+*[INFO ]-- Initializing Spring embedded WebApplicationContext--
 *[INFO ]-- HikariPool-1 - Starting...--
 *[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started EmployeeApplicationTests in 20.474 seconds (JVM running for 27.972)--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.Employee'--
-*[INFO ]-- Starting EmployeeApplicationTests on GSS430 with PID 7016 (started by kannan.r in D:\Kannan\Spring\Employee)--
-*[INFO ]-- No active profile set, falling back to default profiles: default--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started EmployeeApplicationTests in 38.322 seconds (JVM running for 51.444)--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.Employee'--
-*[INFO ]-- Starting EmployeeApplicationTests on GSS430 with PID 7544 (started by kannan.r in D:\Kannan\Spring\Employee)--
-*[INFO ]-- No active profile set, falling back to default profiles: default--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started EmployeeApplicationTests in 16.165 seconds (JVM running for 20.784)--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[INFO ]-- Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]--
+*[INFO ]-- Context refreshed--
+*[INFO ]-- Found 1 custom documentation plugin(s)--
+*[INFO ]-- Scanning for api listing references--
+*[INFO ]-- Started EmployeeApplication in 18.308 seconds (JVM running for 34.176)--
+*[WARN ]-- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m14s128ms975µs128ns).--

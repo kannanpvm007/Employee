@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * EmployeeController
  */
 @RestController
-@RequestMapping("/employees")
+@RequestMapping("/employeesa")
 public class EmployeeController {
     @Autowired
     EmployeeService Employeeservice;
